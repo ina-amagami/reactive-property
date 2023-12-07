@@ -2,11 +2,6 @@
 
 const rxjs = require('rxjs');
 
-class Unit {
-    static Default;
-}
-module.exports = Unit;
-
 class ReactiveProperty {
     _subject = new rxjs.Subject();
     get observable() {

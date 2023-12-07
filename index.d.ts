@@ -1,9 +1,5 @@
 import rxjs from 'rxjs';
 
-export declare class Unit {
-    static Default: undefined;
-}
-
 export default class ReactiveProperty<T> {
     constructor(initialValue: T);
     get observable(): rxjs.Observable<T>;

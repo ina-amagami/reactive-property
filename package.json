@@ -1,6 +1,6 @@
 {
   "name": "rxjs-property",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extends rxjs to provide ReactiveProperty",
   "main": "index.js",
   "scripts": {
